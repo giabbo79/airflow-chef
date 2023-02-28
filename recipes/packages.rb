@@ -34,7 +34,7 @@ if platform == 'rhel'
     group 'root'
     code <<-EOF
 tee -a /etc/yum.repos.d/mariadb.repo << EOM
-# MariaDB 10.1 CentOS repository list - created 2020-10-07 14:28 UTC
+# MariaDB 10.3 CentOS repository list - created 2020-10-07 14:28 UTC
 # http://downloads.mariadb.org/mariadb/repositories/
 [mariadb]
 name = MariaDB
